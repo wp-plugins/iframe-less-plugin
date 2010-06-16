@@ -11,7 +11,7 @@ IFrame-less plugin is a simple and SEO friendly way to embed non-PHP dynamic con
 
 == Description ==
 
-Not everyone who uses wordpress knows PHP. Perhaps you are more familiar with ASP.NET or JSP,but you can’t just put ASP.NET or JSP code in the middle of wordpress, especially if your server doesn’t support it.
+Not everyone who uses wordpress knows PHP. Perhaps you are more familiar with ASP.NET or JSP,but you can`t just put ASP.NET or JSP code in the middle of wordpress, especially if your server doesn`t support it.
 
 Using an IFrame is a possibility, but it has some SEO (Search Engine Optimization) downsides, since, search engines will view that content as part of another page, and give your blog no extra credit for this content.
 
@@ -27,7 +27,7 @@ To get this widget running
 e.g.
 
 1. Upload `Iframeless.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the `Plugins` menu in WordPress
 3. Press Appearance | Widgets, drag the IFrame-less widget to the sidebar
 4. Enter the URL of your dynamic content and press Save.
 
@@ -41,7 +41,7 @@ which shows the current time on our server.
 
 The idea is that you change the default URL to the content you want to show.
 
-= I've embedded a page, and all the images are missing? =
+= I`ve embedded a page, and all the images are missing? =
 
 Any relative links within your dynamic content will no longer be relative to the server that served the content, but rather the wordpress blog, so if you want to include images in your content, it’s often best to have them as absolute links.
 
