@@ -55,3 +55,6 @@ None yet
 = 1.0 =
 * First release
 
+== Upgrade Notice ==
+
+None
